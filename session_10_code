@@ -1,0 +1,3 @@
+l = [,1, 2, 4, 73], True, {1, "green", False}
+type(l)
+#very flexible but what is important about lists is the order in which we order things and store certain elements
