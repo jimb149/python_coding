@@ -76,4 +76,21 @@ print('Hello \n World')
 print("The outcome of interest is", a)
 # print("The outcome of interest is %.2f", a) --> code is currently wrong but the professor will update us on it 
 
+a = 4
 
+#print('Hello my name is a' \
+#'I am a ceu student)' \
+#')
+
+#print('Hello my name is %s. I am in %d year of my program' (2.1, )
+
+# review how the s and d are defined and how they work 
+
+name = 'James'
+session_number = 10 
+print(f'my name is {name}. Today\'s coding session in {session_number}.')
+#f tells python to extract the value of the variables 
+
+print('{} divided by {} is {}.'.format(2000, 1500, 2000/1500))
+print('{:,d} divided by {:,.0f} is {:.2f}.'.format(2000, 1500, 2000/1500))
+#float number with two digits after teh decimal point in the second example
