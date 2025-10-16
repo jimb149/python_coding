@@ -1,3 +1,56 @@
-l = [,1, 2, 4, 73], True, {1, "green", False}
+
+l = [1, 2.2, "apple", True, [1, "green", False]]
 type(l)
-#very flexible but what is important about lists is the order in which we order things and store certain elements
+# very flexible but what is important about lists is the order in which we order things and store certain elements
+# l[-1][1] find why this command does an error
+# changes order of elements in list and saves new order
+
+l.reverse()
+l
+#find why l reverse command did not work
+
+for element in l:
+    print(element)
+start = 10
+stop = 20
+step = 2
+list(range(start, stop, step))
+list(range(1, 11))
+
+l1 = []     
+l2 = []
+l2.append(1)
+l2.append('red')
+l2.append(False)
+l2
+
+l3 = l1 + l2
+l3
+
+# length
+
+len(l)
+len(l[0])
+
+#removing elemetns
+l.remove("apple")
+l 
+del l[0]
+l
+
+#joining elements
+print('-'.join(l1))
+
+#### Tuple #### 
+#review Tuples      
+
+height_and_weight = (165, 60)
+type(height_and_weight)
+ 
+ #review from prof's code
+
+ # dictionary --> review from prof code
+
+ ## sets
+
+ ## modules --> can conflict if not careful 
